@@ -153,3 +153,17 @@ footer {
     color: #64748b;
     margin-top: 20px;
 }
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;  
+    border: 2px solid #e2e8f0;
+}
