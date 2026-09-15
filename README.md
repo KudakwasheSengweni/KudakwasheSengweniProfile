@@ -15,7 +15,7 @@ During Thursday's peer review session, two main usability issues were identified
 
 ---
 
-## PROMPT LOG (Part C)
+## Prompt Log
 
 ### 1. Structured Prompt
 * **Context:** I am a 2nd-year Software Engineering undergraduate student at Africa University creating an About Me bio section for my Web Technologies portfolio site.
