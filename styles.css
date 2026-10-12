@@ -337,3 +337,35 @@ button[type="submit"]:hover {
     object-fit: cover;  
     border: 2px solid #e2e8f0;
 }
+
+
+
+
+
+/* Base mobile layout styles (default view for ~375px) */
+main {
+    grid-template-columns: 1fr;
+}
+
+#contact {
+    grid-column: span 1;
+}
+
+/* Tablet breakpoint (~768px) */
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    
+    #contact {
+        grid-column: span 2;
+    }
+}
+
+/* Desktop breakpoint (~1280px) */
+@media (min-width: 1280px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
