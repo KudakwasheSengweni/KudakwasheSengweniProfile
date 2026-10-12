@@ -205,3 +205,135 @@ footer {
     color: #64748b;
     margin-top: 20px;
 }
+
+
+
+
+nav a {
+    color: #790a98;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+section, aside {
+    background-color: #fef2fc;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+}
+
+section h2, aside h3 {
+    margin-bottom: 18px;
+}
+
+section p, aside p {
+    line-height: 1.8;
+    margin-bottom: 12px; 
+}
+
+article {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #ffdef0;
+    margin-bottom: 16px;
+}
+
+article h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+article p {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.7;
+}
+
+#contact {
+    grid-column: span 2;
+    margin-top: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    background-color: #ffffff;
+    border-color: #a50071;
+    outline: none;
+}
+
+button[type="submit"] {
+    align-self: flex-start;
+    background-color: #d8089d;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #c0158c;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;  
+    border: 2px solid #e2e8f0;
+}
