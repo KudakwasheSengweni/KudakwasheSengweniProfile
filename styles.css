@@ -166,3 +166,42 @@ footer {
     object-fit: cover;  
     border: 2px solid #e2e8f0;
 }
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #1e293b;
+    padding: 20px;
+    line-height: 1.8; 
+}
+
+header, nav, footer {
+    background-color: lavender;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #e2e8f0;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #64748b;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    color: #64748b;
+    margin-top: 20px;
+}
