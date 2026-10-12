@@ -31,3 +31,10 @@ During Thursday's peer review session, two main usability issues were identified
 
 ### 4. Reflection
 I edited the raw output because it used excessive self-praise that does not accurately reflect my capabilities, personality or actual current stage of learning. I altered the technical claims to accurately showcase my focus on mobile, desktop, and web development as an undergraduate student.
+
+## Responsive Notes
+- **Breakpoints Tested:** Tested cleanly at mobile (~375px), tablet (~768px), and desktop (~1280px) viewports using the browser's device toolbar with no horizontal scrolling.
+- **Flexbox vs. Grid Usage:** 
+  - *Flexbox* is used for component-level layouts such as the header profile info (`.header-content`), navigation alignment, and contact form groups (`.contact-form`).
+  - *CSS Grid* is used for the overall page structure in `main` to manage multi-column portfolio sections using fractional (`fr`) units and responsive template columns.
+- **Tailwind Utilities:** Applied Tailwind utility classes to the header and contact form sections utilizing responsive variants (`md:`, `lg:`) for spacing and padding tweaks alongside custom CSS.
